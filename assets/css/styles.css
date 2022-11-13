@@ -3,7 +3,7 @@
 a.navbar-brand{
     margin-left: 10px;
     padding: 10px;
-    background-color: rgb(113, 183, 171);
+    background-color: rgb(177, 219, 212);
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
@@ -70,6 +70,25 @@ p{
 
 .content.bg-white {
     margin-top: 15px;
+}
+
+/* table adjustments*/
+
+tr>th:nth-child(1),
+tr>th:nth-child(3),
+tr>th:nth-child(6),
+tr>th:nth-child(7),
+tr>th:nth-child(8),
+tr>th:nth-child(9),
+tr>th:nth-child(10),
+tr>td:nth-child(1),
+tr>td:nth-child(3),
+tr>td:nth-child(6),
+tr>td:nth-child(7),
+tr>td:nth-child(8),
+tr>td:nth-child(9),
+tr>td:nth-child(10) {
+    text-align: right;
 }
 
 

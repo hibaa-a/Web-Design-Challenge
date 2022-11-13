@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Add a title here -->
-
+    <title>Comparison</title>
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
 
@@ -18,9 +18,71 @@
 
   <body>
     <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class = "container">
+        <div class="row">
+          <div class="navbar-header">
+            <a class="navbar-brand text-white" href="index.html" >Latitude</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="visualisations/temp.html">Max Temperature</a>
+               <a class="dropdown-item" href="visualisations/humidity.html">Humidity</a>
+               <a class="dropdown-item" href="visualisations/cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="visualisations/wind.html">Wind Speed</a>
+            </div>
+
+          </div>
+      </div>
+
+    </nav>
     <!-- End of navbar -->
 
     <!-- Start of container -->
+    <div class="container content bg-white">
+      <h3>Comparison: Latitude vs X</h3>
+      <hr>
+      <p>Click any plot to get an indept analysis</p>
+      <div class="row">
+          <div class="col-md-6">
+              <h3 class="text-center">vs. Max Teperature</h3>
+              <a href="visualisations/temp.html"><img width="100%" src="assets/images/Fig1.png"></a>   
+          </div>
+          <div class="col-md-6">
+              <h3 class="text-center">vs. Humidity</h3>
+              <a href="visualisations/humidity.html"><img width="100%" src="assets/images/Fig2.png"></a>  
+          </div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-md-6">
+              <h3 class="text-center">vs. Cloudiness </h3>
+              <a href="visualisations/cloudiness.html"><img width="100%" src="assets/images/Fig3.png"></a>   
+          </div>
+          <div class="col-md-6">
+              <h3 class="text-center">vs. Wind Speed</h3>
+              <a href="visualisations/windspeed.html"><img width="100%" src="assets/images/Fig4.png"></a>  
+          </div>
+      </div>   
+  </div>
     <!-- End of container -->
 
     <!-- jQuery CDN -->
